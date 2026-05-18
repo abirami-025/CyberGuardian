@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CyberGuardian</string>
+    <string name="app_tagline">Your AI Cyber Shield</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Guardian Active</string>
+    <string name="threats_blocked">Threats Blocked</string>
+    <string name="messages_scanned">Messages Scanned</string>
+    <string name="trust_score">Trust Score</string>
+    <string name="risk_level_low">Low Risk</string>
+    <string name="risk_level_medium">Medium Risk</string>
+    <string name="risk_level_high">High Risk</string>
+    <string name="risk_level_blocked">Blocked</string>
+
+    <!-- Features -->
+    <string name="sms_scanner">SMS Shield</string>
+    <string name="call_guard">Call Guard</string>
+    <string name="qr_scanner">QR Scanner</string>
+    <string name="ai_advisor">AI Advisor</string>
+    <string name="breach_check">Breach Check</string>
+    <string name="emergency">Emergency</string>
+    <string name="threat_history">Threat History</string>
+    <string name="settings">Settings</string>
+
+    <!-- Alerts -->
+    <string name="threat_neutralized">Threat Neutralized — You\'re Secure</string>
+    <string name="scanning_message">Analyzing for threats…</string>
+    <string name="safe_message">All clear — No threats detected</string>
+    <string name="scam_warning">Likely scam — don\'t share OTP!</string>
+
+    <!-- Emergency -->
+    <string name="call_1930">Call 1930 Helpline</string>
+    <string name="report_cybercrime">Report to cybercrime.gov.in</string>
+    <string name="block_sender">Block Sender</string>
+    <string name="flag_upi">Flag UPI Transaction</string>
+
+    <!-- Privacy -->
+    <string name="privacy_title">Privacy Dashboard</string>
+    <string name="privacy_summary">Your data stays on your device. We only send anonymized threat signatures for verification.</string>
+
+    <!-- Permissions -->
+    <string name="perm_sms_rationale">SMS access lets us scan incoming messages for scams, phishing, and fraud in real time.</string>
+    <string name="perm_call_rationale">Call log access helps detect vishing (voice phishing) and suspicious caller patterns.</string>
+    <string name="perm_camera_rationale">Camera access is needed to scan QR codes for malicious links or UPI fraud.</string>
+    <string name="perm_notification_rationale">Notification access lets us analyze messages from WhatsApp, Signal, and other apps for threats.</string>
+</resources>
