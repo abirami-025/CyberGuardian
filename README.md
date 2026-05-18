@@ -79,7 +79,7 @@ CyberGuardian/
 ```
 
 **Architecture Pattern:** MVVM + Clean Architecture  
-**Key Libraries:** Jetpack Compose · Room · Hilt · Coroutines · WorkManager · Firebase
+**Key Libraries:** Jetpack Compose · Room · Hilt · Coroutines · WorkManager
 
 ---
 
@@ -103,7 +103,12 @@ CyberGuardian/
    Go to `File ➔ Open` and select the cloned `CyberGuardian` folder.
 
 3. **Configure API Keys (Third-Party Integrations):**
-   To enable all security scanning vectors, you need to configure your API keys. Open the `local.properties` file in the root directory of your project (create it if it doesn't exist) and add your keys:
+   To enable all security scanning vectors, you need to configure your API keys in the `local.properties` file:
+   
+   > [!TIP]
+   > Android Studio usually generates the `local.properties` file automatically. If it does not exist in your root directory, simply create a new blank text file and name it exactly `local.properties`.
+   
+   Open `local.properties` and add the following keys:
    
    ```properties
    # Inforge API Integration (Threat Intelligence)
@@ -114,11 +119,6 @@ CyberGuardian/
    # VirusTotal API Integration (File & URL Scanning)
    # Get key from: https://www.virustotal.com/gui/my-apikey
    VIRUSTOTAL_API_KEY="your_virustotal_api_key_here"
-
-   # Firebase Services Configuration (Optional)
-   # Get from: https://console.firebase.google.com
-   FIREBASE_API_KEY="your_firebase_api_key_here"
-   FIREBASE_PROJECT_ID="your_firebase_project_id_here"
    ```
    *(Note: The `local.properties` file is automatically ignored by Git via `.gitignore` to prevent any credentials from being exposed publicly.)*
 
