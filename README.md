@@ -8,13 +8,13 @@
 
 [![Android](https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://developer.android.com)
 [![Kotlin](https://img.shields.io/badge/Language-Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org)
-[![License](https://img.shields.io/github/license/YOUR_USERNAME/CyberGuardian?style=for-the-badge&color=blue)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/YOUR_USERNAME/CyberGuardian?style=for-the-badge&color=yellow)](https://github.com/YOUR_USERNAME/CyberGuardian/stargazers)
+[![License](https://img.shields.io/github/license/abirami-025/CyberGuardian?style=for-the-badge&color=blue)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/abirami-025/CyberGuardian?style=for-the-badge&color=yellow)](https://github.com/abirami-025/CyberGuardian/stargazers)
 [![API](https://img.shields.io/badge/Min%20SDK-24-green?style=for-the-badge)](https://developer.android.com/about/versions/nougat)
 
 > **MSc Cybersecurity Capstone Project** — Advanced real-time threat detection, privacy monitoring, and network security for Android devices.
 
-[📱 Download APK](#) · [📄 View Report](#) · [🐛 Report Bug](../../issues) · [💡 Request Feature](../../issues)
+[📱 Download APK](https://github.com/abirami-025/CyberGuardian/releases) · [📄 View Issues](https://github.com/abirami-025/CyberGuardian/issues) · [🐛 Report Bug](https://github.com/abirami-025/CyberGuardian/issues/new) · [💡 Request Feature](https://github.com/abirami-025/CyberGuardian/issues/new)
 
 </div>
 
@@ -96,7 +96,7 @@ CyberGuardian/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/CyberGuardian.git
+git clone https://github.com/abirami-025/CyberGuardian.git
 
 # 2. Open in Android Studio
 # File → Open → Select the CyberGuardian folder
@@ -147,7 +147,7 @@ Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information
 
 <div align="center">
 
-Made with ❤️ by **[Your Name](https://github.com/YOUR_USERNAME)**  
+Made with ❤️ by **[Abirami M](https://github.com/abirami-025)**  
 ⭐ Star this repo if you found it useful!
 
 </div>
