@@ -102,13 +102,25 @@ CyberGuardian/
 2. **Open in Android Studio:**
    Go to `File ➔ Open` and select the cloned `CyberGuardian` folder.
 
-3. **Configure API Keys (Inforge Integration):**
-   To connect the threat intelligence scans, you need to add your API credentials. Open your project's `local.properties` file (in the root directory) and append the following lines:
+3. **Configure API Keys (Third-Party Integrations):**
+   To enable all security scanning vectors, you need to configure your API keys. Open the `local.properties` file in the root directory of your project (create it if it doesn't exist) and add your keys:
+   
    ```properties
+   # Inforge API Integration (Threat Intelligence)
+   # Get key from: https://inforge.io
+   INFORGE_BASE_URL="https://api.inforge.com/v1/"
    INFORGE_API_KEY="your_inforge_api_key_here"
-   BASE_URL="https://api.inforge.com/v1/"
+
+   # VirusTotal API Integration (File & URL Scanning)
+   # Get key from: https://www.virustotal.com/gui/my-apikey
+   VIRUSTOTAL_API_KEY="your_virustotal_api_key_here"
+
+   # Firebase Services Configuration (Optional)
+   # Get from: https://console.firebase.google.com
+   FIREBASE_API_KEY="your_firebase_api_key_here"
+   FIREBASE_PROJECT_ID="your_firebase_project_id_here"
    ```
-   *(Note: This file is automatically ignored by Git to keep your keys safe and secure.)*
+   *(Note: The `local.properties` file is automatically ignored by Git via `.gitignore` to prevent any credentials from being exposed publicly.)*
 
 4. **Sync and Run:**
    Let Gradle sync finish, and click the **Run** button to deploy to your device or emulator!
