@@ -36,21 +36,25 @@
 
 ## 📸 Screenshots
 
-> Add your screenshots to `docs/screenshots/` and they will appear here.
-
 <div align="center">
 <table>
   <tr>
-    <td><img src="docs/screenshots/dashboard.png" width="180"/></td>
-    <td><img src="docs/screenshots/privacy.png" width="180"/></td>
-    <td><img src="docs/screenshots/network.png" width="180"/></td>
-    <td><img src="docs/screenshots/alerts.png" width="180"/></td>
+    <td align="center"><img src="docs/screenshots/dashboard.png" width="180"/><br/><b>Dashboard</b></td>
+    <td align="center"><img src="docs/screenshots/privacy_monitor.png" width="180"/><br/><b>Privacy Monitor</b></td>
+    <td align="center"><img src="docs/screenshots/app_guard.png" width="180"/><br/><b>App Guard</b></td>
+    <td align="center"><img src="docs/screenshots/firewall.png" width="180"/><br/><b>Network Firewall</b></td>
   </tr>
   <tr>
-    <td align="center"><b>Dashboard</b></td>
-    <td align="center"><b>Privacy Monitor</b></td>
-    <td align="center"><b>Network Scanner</b></td>
-    <td align="center"><b>Alerts</b></td>
+    <td align="center"><img src="docs/screenshots/smishing.png" width="180"/><br/><b>Smishing Detection</b></td>
+    <td align="center"><img src="docs/screenshots/vishing.png" width="180"/><br/><b>Vishing Detection</b></td>
+    <td align="center"><img src="docs/screenshots/url_scan.png" width="180"/><br/><b>URL Scanner</b></td>
+    <td align="center"><img src="docs/screenshots/file_scan.png" width="180"/><br/><b>File Scanner</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/audit_log.png" width="180"/><br/><b>Security Audit Log</b></td>
+    <td align="center"><img src="docs/screenshots/security_history.png" width="180"/><br/><b>Security History</b></td>
+    <td align="center"><img src="docs/screenshots/ai_bot.png" width="180"/><br/><b>AI Security Assistant</b></td>
+    <td align="center"><img src="docs/screenshots/report.png" width="180"/><br/><b>Help & Reporting</b></td>
   </tr>
 </table>
 </div>
