@@ -94,15 +94,24 @@ CyberGuardian/
 
 ### Installation
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/abirami-025/CyberGuardian.git
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/abirami-025/CyberGuardian.git
+   ```
 
-# 2. Open in Android Studio
-# File → Open → Select the CyberGuardian folder
+2. **Open in Android Studio:**
+   Go to `File ➔ Open` and select the cloned `CyberGuardian` folder.
 
-# 3. Let Gradle sync, then Run on your device or emulator
-```
+3. **Configure API Keys (Inforge Integration):**
+   To connect the threat intelligence scans, you need to add your API credentials. Open your project's `local.properties` file (in the root directory) and append the following lines:
+   ```properties
+   INFORGE_API_KEY="your_inforge_api_key_here"
+   BASE_URL="https://api.inforge.com/v1/"
+   ```
+   *(Note: This file is automatically ignored by Git to keep your keys safe and secure.)*
+
+4. **Sync and Run:**
+   Let Gradle sync finish, and click the **Run** button to deploy to your device or emulator!
 
 ---
 
